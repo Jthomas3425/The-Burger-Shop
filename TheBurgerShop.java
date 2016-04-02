@@ -5,7 +5,6 @@
  */
 package theburgershop;
 
-import java.util.ArrayList;
 
 /**
  *
@@ -17,9 +16,8 @@ public class TheBurgerShop {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       DeluxeBurger DHamburger = new DeluxeBurger("beef","wheat","doritos","sprite");
+       DeluxeBurger DHamburger = new DeluxeBurger("beef","wheat","doritos","sprite",4);
        DHamburger.getBurgerPrice();
     }
     
-    public ArrayList Test = new ArrayList <> ();
 }
